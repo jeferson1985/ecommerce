@@ -9,7 +9,6 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-color: aliceblue;
 }
 
 .header {
@@ -80,24 +79,43 @@
      opacity: .7;
 }
 
-.container_card {
+.container_card_masculino {
     width: 100%;
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     margin: 2%;
     gap: 3% 0;
+}
+
+
+.seta_esquerda {
+    width: 0; 
+    height: 0;
+    position: absolute;
+    left: 0;
+    margin: 8rem 2rem;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-right:25px solid #ABA8B2;
+}
+
+.seta_direita {
+    width: 0; 
+    height: 0; 
+    right: 0;
+    margin: 8rem 2rem;
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #ABA8B2;
 }
 
 .card img {
     width: 90%;
     height: 350px;
     border-radius: 8px 8px 0 0;
-}
-
-.card:hover,
-.card:focus {
-    transform: translate(10px) scale(1.2);
 }
 
 .descricao_produto {
@@ -108,6 +126,7 @@
 .descricao_produto h3,
 .descricao_produto p {
     font-family: bold;
+    white-space: nowrap;
     color: rgb(93, 93, 93);
 }
 
