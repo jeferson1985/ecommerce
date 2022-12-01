@@ -47,11 +47,12 @@
 
 .items_1col,
 .items_2col {
-    width: 50%;
+    width: 100%;
 }
 
 form  {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -80,7 +81,6 @@ form  {
 .btn {
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
 }
 
 .btn button {
