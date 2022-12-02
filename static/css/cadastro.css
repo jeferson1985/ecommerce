@@ -78,11 +78,6 @@ form  {
     padding: 0.5rem 0;
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-}
-
 .btn button {
     background-color: #4e6c9c;
     padding: 2% 30%;
@@ -98,9 +93,21 @@ form  {
     color: #fff;
 }
 
+.btn_and_msg {
+    margin: 5% 0;
+    color: gray;
+}
+
 @media (max-width:768px) {
+    .container {
+        height: auto;
+    }
     .form {
         top: 15%;
+    }
+
+    form {
+        display: block;
     }
 }
 

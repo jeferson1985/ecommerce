@@ -85,6 +85,11 @@
     color: #fff;
 }
 
+.message {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
 
 @media (max-width:425px) {
     .background img {
