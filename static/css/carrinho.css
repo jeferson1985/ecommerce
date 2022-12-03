@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    color: gray;
+    margin: 2% 5%;
+}
+
+.produto {
+    display: flex;
+    margin: 2% 5%;
+    background-color: #eff0f463;
+    padding: 2%;
+}
+
+form {
+    display: flex;
+    gap: 3rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+select {
+    width: 100%;
+    height: 25px;
+}
+
+.btn-delete {
+    display: flex;
+    width: 100%;
+}
+
+.btn-finalizar {
+    width: 35%;
+    margin: auto;
+}
+
+.btn-finalizar button {
+    background-color: rgb(125, 255, 125);
+    font-size: 1.2rem;
+}
+
+.btn-finalizar button:hover {
+    cursor: pointer;
+    background-color: rgb(26, 235, 26);
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(252, 33, 33, 0.986);
+}
+
+@media (max-width:768px) {
+    form {
+        display: inline-table;
+        gap: 2%;
+    }
+    .info,
+    select {
+        margin: 5% 0;
+    }
+}
