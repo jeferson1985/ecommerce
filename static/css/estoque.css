@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font: 1.2rem bold;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    padding: 1rem 0;
+    background-color: rgba(178, 216, 254, 0.908);
+}
+
+.header a {
+    margin: 0 2%;
+    color: #fff;
+}
+
+h1 {
+    margin: 1% 0;
+    text-align: center;
+    color: gray;
+}
+
+.container-table {
+    width: 100%;
+    padding: 1% 10%;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(178, 216, 254, 0.908);
+    color: #fff;
+}
+
+td {
+   
+}
